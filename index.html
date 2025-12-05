@@ -53,29 +53,36 @@
 	
 		</style>
 	</head>
-	<body h="100%">
+	<body>
 		<!-- Email of protective services, where the customer can hire special operatives. Similar to a private security business. -->
 		<div style=" text-align: center; padding: 5%;">
 			<!-- Hero image of protection services -->
-			<img src="images/protectionServices.png" width="100%" style="">
-			<h1 style="margin: 0px 0px 0px 0px; background-image: url('images/green-background.png')">Learn about any hero you like! Just click and choose!</h1>
-
-			<!-- Product (hero) choices (will add selection functionality in next versions)-->
-			<div class="imgWrap" style="border-style: solid; margin: 0px auto 3% auto;"> <!-- TRBL-->
-				<!-- <img src="images/ironman.jpeg" style="height: 10%; min-width: 100px; max-width: 40%;"> -->
-				 <img src="images/ironman.jpeg" style="width: 40%; height: auto;">
-			</div>
-
-
-
-			<div class="imgWrap" style="border-style: solid; margin: 3% auto 3% auto;">
-				<!-- <img src="images/batman.png" style="height: 10%; min-width: 100px; max-width: 40%;"> -->
-				 <img src="images/batman.png" style="width: 40%; height: auto;">
-			</div>
-
-			<div class="imgWrap" style="border-style: solid; margin: 3% auto 3% auto;">
-				<img src="images/spiderman2099.png" style="width: 40%; height: auto;">
-			</div>
+			<table> <!-- Table with just 1 column, multiple rows -->
+				<thead> <!-- Single Column -->
+					<tr class="imgWrap" style="border-style: solid; margin: 0px auto 3% auto;">
+						<th>
+							<img src="images/protectionServicesImage.jpg" width="100%" style="">
+							<h1 style="margin: 0px 0px 0px 0px; background-image: url('images/green-background.png')">Learn about any hero you like! Just click and choose!</h1>
+						</th>
+					</tr>
+								<!-- Product (hero) choices (will add selection functionality in next versions)-->
+					<tr class="imgWrap" style="border-style: solid; margin: 0px auto 3% auto;"> <!-- TRBL-->
+						 <th>
+							<img src="images/ironman.jpeg" style="width: 40%; height: auto;">
+						</th>
+					</tr>
+					<tr class="imgWrap" style="border-style: solid; margin: 3% auto 3% auto;">
+						 <th>
+							<img src="images/batman.png" style="width: 40%; height: auto;">
+						</th>
+					</tr>
+					<tr class="imgWrap" style="border-style: solid; margin: 3% auto 3% auto;">
+						<th>
+							<img src="images/spiderman2099.png" style="width: 40%; height: auto;">
+						</th>
+					</tr>
+				</thead>
+			</table>
 
 			<!-- Selection display, will improve in next versions -->
 			<div style="border-color: black; border-style: solid; margin: 16px auto; padding: 10%; background-image: url('images/green-background.png'); background-position: center; background-repeat: no-repeat; background-size: cover;">
